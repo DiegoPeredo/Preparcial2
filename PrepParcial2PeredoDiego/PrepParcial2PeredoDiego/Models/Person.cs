@@ -15,6 +15,6 @@ namespace PrepParcial2PeredoDiego.Models
         public string Name { get; set; }
         public string Nickname { get; set; }
         [DataType(DataType.Date)]
-        public int BirthDay { get; set; }
+        public DateTime BirthDay { get; set; }
     }
 }
